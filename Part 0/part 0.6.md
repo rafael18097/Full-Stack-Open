@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     Title: Excercise 0.6
 
