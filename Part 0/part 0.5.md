@@ -2,7 +2,7 @@
 
 
 sequenceDiagram
-    Title: Excercise 0.4
+    Title: Excercise 0.5
 
     participant browser
     participant server
@@ -31,11 +31,4 @@ sequenceDiagram
     deactivate server
     Note right of browser: The browser executes the callback function that renders the notes
 
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa ["Form Data: note: 'your submission']
-    activate server
-    server-->>browser: HTTP 201 created [{ "content": "your submission", "date": "2024-05-22" }, ... ]
-    deactivate server
-    Note right of browser: Field submission is made and POST HTTP Request response 201 created with updated data.json file returned
-
-    
 ```
