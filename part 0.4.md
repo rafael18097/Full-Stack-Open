@@ -1,7 +1,7 @@
 #Here is a simple flow chart:
 
 ```mermaid
-Title:Excercise 0.4;
+Title:Excercise 0.4
 
 sequenceDiagram
     participant browser
