@@ -1,13 +1,12 @@
-#Here is a simple flow chart:
-
 ```mermaid
-Title:Excercise 0.4
+
 
 sequenceDiagram
+    Title:Excercise 0.4
     participant browser
     participant server
     
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note Form Data: note: 'your submission'
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note "Form Data: note: 'your submission'"
     activate server
     server-->>browser: HTTP 302 redirection to GET /notes url
     deactivate server
