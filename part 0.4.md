@@ -1,4 +1,4 @@
-Here is a simple flow chart:
+#Here is a simple flow chart:
 
 ```mermaid
 Title:Excercise 0.4;
@@ -35,5 +35,5 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
-
+end
 ```
